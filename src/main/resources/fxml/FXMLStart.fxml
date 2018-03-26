@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="digitrecognitionapplication.digitrecognitionapplication.FXMLStartController">
+   <children>
+      <Button fx:id="bBegin" layoutX="241.0" layoutY="225.0" mnemonicParsing="false" onAction="#loadProject" prefHeight="50.0" prefWidth="218.0" text="Recognise Digits" />
+   </children>
+</AnchorPane>
